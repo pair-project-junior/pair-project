@@ -1,0 +1,131 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+  width: 100%;
+  height: 80px;
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.menu ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.menu ul li {
+  margin-right: 20px;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+.menu ul li a:hover {
+  color: #000;
+}
+
+.signup a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 20px;
+  padding: 10px 20px;
+  background-color: #f44336;
+  transition: background-color 0.3s;
+}
+
+.signup a:hover {
+  background-color: #d32f2f;
+}
+
+.body {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9f9f9;
+}
+
+.heading {
+  text-align: center;
+  color: #333;
+}
+
+.heading h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.heading a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 30px;
+  padding: 10px 30px;
+  background-color: #2196f3;
+  transition: background-color 0.3s;
+}
+
+.heading a:hover {
+  background-color: #1976d2;
+}
+
+.tours {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.places {
+  text-align: center;
+  border-radius: 12px;
+  background-color: #fff;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  transition: transform 0.3s;
+}
+
+.places:hover {
+  transform: translateY(-5px);
+}
+
+.places h2 {
+  color: #f44336;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.places a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 14px;
+  border-radius: 20px;
+  padding: 8px 16px;
+  background-color: #333;
+  transition: background-color 0.3s;
+}
+
+.places a:hover {
+  background-color: #555;
+}
+
+
+
