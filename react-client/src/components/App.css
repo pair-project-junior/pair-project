@@ -1,0 +1,280 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+  width: 100%;
+  height: 80px;
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.menu ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.menu ul li {
+  margin-right: 20px;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+.menu ul li a:hover {
+  color: #000;
+}
+
+.signup a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 20px;
+  padding: 10px 20px;
+  background-color: #f44336;
+  transition: background-color 0.3s;
+}
+
+.signup a:hover {
+  background-color: #d32f2f;
+}
+
+.body {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9f9f9;
+}
+
+.heading {
+  text-align: center;
+  color: #333;
+}
+
+.heading h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.heading a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 30px;
+  padding: 10px 30px;
+  background-color: #2196f3;
+  transition: background-color 0.3s;
+}
+
+.heading a:hover {
+  background-color: #1976d2;
+}
+
+.tours {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.places {
+  text-align: center;
+  border-radius: 12px;
+  background-color: #fff;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  transition: transform 0.3s;
+}
+
+.places:hover {
+  transform: translateY(-5px);
+}
+
+.places h2 {
+  color: #f44336;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.places a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 14px;
+  border-radius: 20px;
+  padding: 8px 16px;
+  background-color: #333;
+  transition: background-color 0.3s;
+}
+
+.places a:hover {
+  background-color: #555;
+}
+
+
+/* Style for the whole reservation container */
+.reservation {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+/* Heading style */
+.reservation h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Style for each individual reservation detail */
+.reservation-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+}
+
+/* Label for the country name */
+.reservation-details span:nth-child(1) {
+  font-weight: bold;
+}
+
+/* Style for the price */
+.reservation-details span:nth-child(2) {
+  color: #e74c3c;
+  font-weight: bold;
+}
+
+/* Style for the remove button */
+.reservation-details-button {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.reservation-details-button:hover {
+  background-color: #c0392b;
+}
+
+/* Style for the total amount section */
+.reservation h3 {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+
+/* app.css */
+
+.UpdateForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.TextField {
+  margin: 10px;
+  width: 300px;
+}
+
+.UpdateButton {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.UpdateButton:hover {
+  background-color: #0056b3;
+}
+
+
+/* app.css */
+
+/* Styles for the container form */
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles for the text fields */
+.MuiTextField-root {
+  margin-bottom: 10px;
+}
+
+/* Style for the button */
+.Add {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.Add:hover {
+  background-color: #0056b3;
+}
+
+/* Additional styles for responsiveness */
+@media (max-width: 600px) {
+  .form-container {
+    width: 100%;
+    box-shadow: none;
+  }
+}
+
+/* app.css */
+
+/* Styles for the "Reserver" button */
+.Reserver-button {
+  background-color: #28a745;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.Reserver-button:hover {
+  background-color: #218838;
+}
